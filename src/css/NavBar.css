@@ -1,0 +1,38 @@
+nav {
+    display: flex;
+    justify-content: space-between; /* Push nav items to the left and logo to the right */
+    align-items: center; /* Vertically center the items */
+    background-color: rgb(248, 242, 242);
+    padding: 1rem;
+    margin-top: 2rem;
+  }
+  
+  .nav-items ul {
+    list-style-type: none; /* Remove bullets */
+    display: flex; /* Display the items in a row */
+    gap: 2rem; /* Space between the items */
+    padding: 0;
+    margin: 0;
+  }
+  
+  .nav-items li {
+    color: black;
+  }
+  
+  .nav-items a {
+    color: black;
+    text-decoration: none; /* Remove underline from links */
+  }
+  
+  .nav-items a:hover {
+    text-decoration: underline; /* Add underline on hover */
+  }
+  
+  .logo {
+    color: black;
+    font-size: 1rem; /* Adjust logo size */
+    font-weight: bold;
+    height: 40;
+    width: 40;
+  }
+  

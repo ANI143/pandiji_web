@@ -1,0 +1,79 @@
+/* Container for the cards section */
+.puja-cards-section {
+    padding: 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+  }
+  
+  .puja-cards-section h2 {
+    font-size: 28px;
+    margin-bottom: 30px;
+    color: #05f;
+  }
+  
+  /* Container for the cards */
+  .puja-cards-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 cards per row */
+    gap: 20px;
+    justify-items: center;
+    align-items: start;
+  }
+  
+  /* Individual card styling */
+  .puja-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+  /* Hover effect on the card */
+  .puja-card:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Circular image in the card */
+  .puja-image img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+  }
+  
+  /* Card title */
+  .puja-card h3 {
+    font-size: 22px;
+    color: #05f;
+    margin-bottom: 10px;
+  }
+  
+  /* Card description */
+  .puja-card p {
+    font-size: 16px;
+    color: #000000;
+    margin-bottom: 20px;
+  }
+  
+  /* Full-size button in the card */
+  .book-button {
+    width: 100%;
+    padding: 12px 0;
+    background-color: #BA4040;
+    color: white;
+    /* border: ; */
+    border-radius: 2px;
+    cursor: pointer;
+    border-color: #BA4040;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .book-button:hover {
+    background-color: white;
+    color: #BA4040;
+  }
+  

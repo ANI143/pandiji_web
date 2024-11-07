@@ -1,0 +1,102 @@
+.img-video-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: white; /* Optional background color */
+  }
+  
+  .wave-image {
+    width: 100%; /* Full width */
+    overflow: hidden;
+  }
+  
+  .wave-image img {
+    width: 100%; /* Responsive wave image */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  .video-title {
+    font-weight: bold;
+    font-size: 24px;
+    margin: 20px 0; /* Margin for spacing */
+    color: #333; /* Text color */
+    text-align: center; /* Center text */
+  }
+  
+  .centered-images {
+    display: flex;
+    justify-content: center;
+    gap: 10px; /* Space between images */
+    margin-bottom: 20px; /* Spacing below centered images */
+    flex-wrap: wrap; /* Wrap images on smaller screens */
+  }
+  
+  .centered-images img {
+    width: 150px; /* Default size */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Optional rounded corners */
+  }
+  
+  .additional-images {
+    display: flex;
+    justify-content: center;
+    gap: 10px; /* Space between additional images */
+    margin-bottom: 20px; /* Spacing below additional images */
+    flex-wrap: wrap; /* Wrap images on smaller screens */
+  }
+  
+  .additional-images img {
+    width: 100px; /* Default size */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 5px; /* Optional rounded corners */
+  }
+  
+  .youtube-video {
+    width: 100%;
+    max-width: 600px; /* Limit max width for larger screens */
+    margin: 20px 0; /* Spacing around the video */
+  }
+  
+  .youtube-video iframe {
+    width: 100%; /* Responsive iframe */
+    height: 315px; /* Aspect ratio for YouTube videos */
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .video-title {
+      font-size: 20px; /* Smaller font size on medium screens */
+    }
+  
+    .centered-images img {
+      width: 120px; /* Smaller image size on medium screens */
+    }
+  
+    .additional-images img {
+      width: 80px; /* Smaller image size on medium screens */
+    }
+  
+    .youtube-video iframe {
+      height: 240px; /* Adjust height for smaller screens */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .video-title {
+      font-size: 18px; /* Even smaller font size on small screens */
+    }
+  
+    .centered-images img {
+      width: 100px; /* Further reduce image size on small screens */
+    }
+  
+    .additional-images img {
+      width: 60px; /* Further reduce image size on small screens */
+    }
+  
+    .youtube-video iframe {
+      height: 200px; /* Adjust height for small screens */
+    }
+  }
+  

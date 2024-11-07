@@ -1,0 +1,110 @@
+.banner-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background: radial-gradient(circle, #ffffe0, #ffd700); /* Light to dark yellow gradient */
+  margin: 0 auto;
+  margin-top: 1.5rem; /* Center align */
+  border-radius: 8px;
+  width: 100%;
+  /* max-width: 1100px; Set a max-width to keep it centered and contained */
+}
+
+.banner-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  gap: 20px;
+  flex-wrap: wrap; /* Allow wrapping for responsiveness */
+}
+
+.banner-text {
+  flex: 1;
+  padding: 20px;
+  text-align: left; /* Align text to the left */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Align items to the left */
+}
+
+.banner-text h1 {
+  font-size: 2.2rem;
+  color: #05f;
+  margin-bottom: 15px;
+}
+
+.banner-text p {
+  font-size: 1rem;
+  color: #000;
+  margin-bottom: 20px;
+}
+
+.booking-button {
+  padding: 10px 20px;
+  background-color: red;
+  color: white;
+  border: 2px solid white;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  align-self: flex-start;
+}
+
+.booking-button:hover {
+  background-color: darkred;
+  transform: scale(1.05);
+}
+
+.banner-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.banner-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .banner-content {
+    flex-direction: column; /* Stack the content vertically */
+    align-items: center;
+    text-align: center; /* Center-align text on smaller screens */
+  }
+
+  .banner-text {
+    align-items: center; /* Center-align items */
+    text-align: center;
+  }
+
+  .booking-button {
+    align-self: center; /* Center-align the button */
+  }
+
+  .banner-image {
+    margin-top: 20px; /* Add some space between text and image */
+  }
+}
+
+@media (max-width: 480px) {
+  .banner-text h1 {
+    font-size: 1.8rem; /* Smaller font size for very small screens */
+  }
+
+  .banner-text p {
+    font-size: 0.9rem;
+  }
+
+  .booking-button {
+    font-size: 0.9rem;
+    padding: 8px 16px; /* Smaller padding for the button */
+  }
+}
