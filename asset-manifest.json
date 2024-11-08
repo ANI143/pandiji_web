@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/pandiji_web/static/css/main.a65f7a9d.css",
+    "main.js": "/pandiji_web/static/js/main.cc3518c1.js",
+    "static/js/453.ba44c454.chunk.js": "/pandiji_web/static/js/453.ba44c454.chunk.js",
+    "index.html": "/pandiji_web/index.html",
+    "main.a65f7a9d.css.map": "/pandiji_web/static/css/main.a65f7a9d.css.map",
+    "main.cc3518c1.js.map": "/pandiji_web/static/js/main.cc3518c1.js.map",
+    "453.ba44c454.chunk.js.map": "/pandiji_web/static/js/453.ba44c454.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a65f7a9d.css",
+    "static/js/main.cc3518c1.js"
+  ]
+}
