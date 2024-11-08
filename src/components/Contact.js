@@ -81,7 +81,14 @@ const Contact= () => {
        
       </div>
     
-     
+      {/* Centered Contact Now Section at the Bottom */}
+      <div className="contact-now-section">
+        <strong>Contact Now: +91-9876543210</strong>
+        
+        <p>
+         दांडी आश्रम, योगीपुरा, हरसिद्धि मंदिर के पास, उज्जैन
+        </p>
+      </div>
     </div>
   
   );
